@@ -10,8 +10,10 @@ namespace Interfaces
 	{
 		static void Main(string[] args)
 		{
-			Iprint printer = new Diagnostic();
+			Iprint printer = new Console();
 			printer.Print("A single String to the console");
+
+			Iwrite writer = new Console();
 		}
 	}
 }

@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-	interface Iprint
+	interface Iwrite
 	{
-		void Print(string s);
-		void PrintAll(string[] strings);
-		void Test();
+		void Write(string s);
+
 	}
 }

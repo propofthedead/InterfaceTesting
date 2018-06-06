@@ -17,5 +17,7 @@ namespace Interfaces
 				Print(str);
 			}
 		}
+		public void Test() {
+		}
 	}
 }

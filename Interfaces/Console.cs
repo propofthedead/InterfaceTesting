@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-	class Console:Iprint
+	class Console:Iprint, Iwrite
 	{
 		public void Print(string s) {
 			System.Console.WriteLine(s);
@@ -15,6 +15,14 @@ namespace Interfaces
 			foreach (string str in strings) {
 				Print(str);
 			}
+		}
+		public void Test() {
+
+		}
+
+		public void Write(string s)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }
